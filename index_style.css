@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+body,h2,header,ul,li,a,h3,nav,p,strong,span,button{margin: 0; padding: 0;}
+
+body{max-width:1920px; height: 100vh;}
+ul{list-style:none;}
+a{text-decoration: none;}
+img{display:block;}
+#main_header{ display:flex; justify-content: space-between;}
+#main_header>h2 a{
+    display:flex; color:#151515; gap:5px;
+ }
+#main_header>nav>ul{
+    display:flex; gap:15px;
+    align-content:center;
+}
+#main_header>.side_nav>ul{
+    display:flex; gap:10px;
+}
+
+#main_header>.side_nav>ul>.search{
+    background:url("images/Search.png") no-repeat center center;
+        
+}
+#main_header>.side_nav>ul>.lang{
+    background:url("images/Geography.png") no-repeat center center;
+    
+}
+#main_visual{
+    width:100%; height:947px;
+    background:url("images/바탕1.png") no-repeat center center;
+    background-size:1920px 947px;
+    margin-top:-10px; 
+}
+
+#main_visual>p,span{position:absolute; color:#fff; margin-left:50%;
+        
+    }
+#main_visual>p{font-size:60px; font-weight: 700;margin-top:20%; }
+#main_visual>span{font-size:40px; margin-top:25%;}
+
+#main_visual>.innerbox{
+    position:absolute; width:1200px; 
+    margin: 38% auto; margin-left: 23%;
+    display: flex; gap:30px;
+}
+
+#main_visual>.innerbox> div{
+    background-color:#F8EEFF; border:1px solid #333;
+    width: 370px; height: 140px; border-radius: 30px;
+}
+
+#main_visual>.innerbox>div>h3{font-size:16px; margin-left:15px;}
+#main_visual>.innerbox>div>strong{font-size:20px; display:block; border-bottom: 1px solid #333;}
+#main_visual>.innerbox>div>p {font-size:12px; letter-spacing: 1px; 
+    font-weight: bold; margin-top:10px; margin-left:12px;}
+#first_content{
+    background-color:rgb(171, 217, 255 , 0.3);
+    width: 100%; height:947px;
+}
+#first_content>h2{
+    padding: 38% auto; padding-left: 23%;
+}
+
+#first_content>.innerbox{
+    margin:0 auto; display:flex;
+}
+/*------------------------------------------------------*/
+.sub{display:none;}
+.mobile_menu{display:none;}
+.moblie_sub{display:none;}
+.more_menu{display:none;}
