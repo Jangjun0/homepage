@@ -6,19 +6,14 @@ body{max-width:1920px; height: 100vh;}
 ul{list-style:none;}
 a{text-decoration: none;}
 img{display:block;}
-#main_header{ display:flex; justify-content: space-between; 
-    position:absolute; width:100%; height:80px;
-    left:50%; transform: translateX(-50%); max-width: 1200px; 
-    top:0px;
-}
+#main_header{ display:flex; justify-content: space-between;}
 #main_header>h2 a{
     display:flex; color:#151515; gap:5px;
  }
 #main_header>nav>ul{
     display:flex; gap:15px;
-    align-content:center; gap:30px;
+    align-content:center;
 }
-#main_header>nav>ul a{color:#fff;}
 #main_header>.side_nav>ul{
     display:flex; gap:10px;
 }
@@ -33,30 +28,30 @@ img{display:block;}
 }
 #main_visual{
     width:100%; height:947px;
-    background:url("images/First_section.png") no-repeat center center;
+    background:url("images/바탕1.png") no-repeat center center;
     background-size:1920px 947px;
+    margin-top:-10px; 
 }
 
-#main_visual>p,span{position:absolute; color:#fff; 
-    left:50%; transform: translateX(-20%); max-width: 1200px; 
-    
+#main_visual>p,span{position:absolute; color:#fff; margin-left:50%;
+        
     }
-#main_visual>p{font-size:50px; font-weight: 700;margin-top:20%; }
-#main_visual>span{font-size:30px; margin-top:25%;}
+#main_visual>p{font-size:60px; font-weight: 700;margin-top:20%; }
+#main_visual>span{font-size:40px; margin-top:25%;}
 
 #main_visual>.innerbox{
-    position:absolute; width:100%; height: 160px; 
-    left:50%; transform:translateX(-50%); max-width: 1200px;
-    display: flex; gap:30px; top:80%;
+    position:absolute; width:1200px; 
+    margin: 38% auto; margin-left: 23%;
+    display: flex; gap:30px;
 }
 
 #main_visual>.innerbox> div{
-    background-color:#F8EEFF; border:0px;
+    background-color:#F8EEFF; border:1px solid #333;
     width: 370px; height: 140px; border-radius: 30px;
 }
 
-#main_visual>.innerbox>div>h3{font-size:16px; margin-left:15px; margin-top:10px;}
-#main_visual>.innerbox>div>strong{font-size:20px; margin-left: 15px;display:block; border-bottom: 1px solid #333;}
+#main_visual>.innerbox>div>h3{font-size:16px; margin-left:15px;}
+#main_visual>.innerbox>div>strong{font-size:20px; display:block; border-bottom: 1px solid #333;}
 #main_visual>.innerbox>div>p {font-size:12px; letter-spacing: 1px; 
     font-weight: bold; margin-top:10px; margin-left:12px;}
 #first_content{
@@ -64,55 +59,11 @@ img{display:block;}
     width: 100%; height:947px;
 }
 #first_content>h2{
-    padding-top:50px;
-   position:relative; width: 100%;
-   height:38px; left:50%; transform:translateX(-50%); max-width: 1200px;
+    padding: 38% auto; padding-left: 23%;
 }
 
 #first_content>.innerbox{
-   position:relative; width: 100%;
-   height:400px; left:50%; transform:translateX(-50%); max-width: 1250px;
-   top:20%; display:flex; flex-wrap:wrap; gap:20px;
-}
-#first_content>.innerbox>div{
-    width:275px; height:200px; background:#fff; border:1px solid #333;
-    border-radius: 10%; line-height:25px;
-    padding-top:10px; padding-left:10px;
-}
-#first_content>.innerbox>div>h3{
-    font-size:20px;
-}
-#first_content>.innerbox>div>strong{
-    color:#838383; font-weight: 200; font-size:12px;
-}
-#first_content>.innerbox>div>.gps{
-    font-size:12px;
-    padding-left:18px;background:url("images/location.png") no-repeat left center;
-}
-#first_content>.innerbox>div>.call{
-    font-size:12px; padding-left:18px;
-    background:url("images/call.png") no-repeat left center;
-}
-#first_content>.innerbox>div>.more{
-    font-size:12px;
-    display:block; width:120px; height:15px;
-    color:#333; background:url("images/Forward.png") no-repeat right center;   
-}
-/*first-section 에서 카드 8개에 js통해서 효과 넣기( hotel 참고)*/
-#second_content>h2{
-    padding-top:50px;
-    position:relative; width: 100%;
-    height:38px; left:17%; max-width: 200px;
-}
-#second_content>h2>.plus{
-    z-index: -9999px;
-    background:url("images/typcn_plus.png") no-repeat right;
-}
-
-#second_content>.innerbox{
-    position:relative; width: 100%;
-   height:400px; left:50%; transform:translateX(-50%); max-width: 1250px;
-   top:20%; display:flex; flex-wrap:wrap; gap:20px;
+    margin:0 auto; display:flex;
 }
 /*------------------------------------------------------*/
 .sub{display:none;}
